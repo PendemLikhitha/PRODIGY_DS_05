@@ -38,8 +38,11 @@ df['Time'] = pd.to_datetime(df['Time'], format='%H:%M:%S').dt.time
 print(df.info())
 display(df.head())
 ```
-![Screenshot 2024-07-06 204321](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/75af8f3d-ab31-42d8-bc91-1ba8e68f0732)
-![Screenshot 2024-07-06 204310](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/244b7b9e-62c1-44b3-9da6-22ec568e1600)
+![Screenshot 2024-07-06 230920](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/a54668a4-d68c-4962-9f37-dd64e9a07a83)
+![Screenshot 2024-07-06 230909](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/592d8e00-3ef2-4480-8455-d8af70b49083)
+![Screenshot 2024-07-06 230857](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/87ccdcba-d78f-4678-a758-7bd7e558e6ec)
+
+
 ```python
 # Countplot of accidents by road surface conditions
 custom_palette = ["#A95C68","#FFBF00","#0047AB","#008080"]
@@ -51,7 +54,8 @@ plt.show()
 ```
 ### Accidents by Road Surface Conditions
 
-![Screenshot 2024-07-03 210554](https://github.com/PendemLikhitha/ProdigyInfoTech_TASK5/assets/159911587/43907dca-9eef-4ef0-9a70-94d6ccd0a7a2)
+![Screenshot 2024-07-06 230931](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/a338df4e-4329-4606-b948-85d616b1b38a)
+
 ```python
 # Countplot of accidents by weather conditions
 plt.figure(figsize=(10, 6))
@@ -64,7 +68,8 @@ plt.show()
 ```
 ### Accidents by Weather Conditions
 
-![Screenshot 2024-07-03 210605](https://github.com/PendemLikhitha/ProdigyInfoTech_TASK5/assets/159911587/dd7b1707-9393-47c4-bcde-03063779c9b4)
+![Screenshot 2024-07-06 230940](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/4c4b515e-6323-4763-9492-603ea2dc6c61)
+
 ```python
 # Countplot of accidents by time of day (hour)
 df['Hour'] = pd.to_datetime(df['Time'], format='%H:%M:%S').dt.hour
@@ -79,7 +84,8 @@ plt.show()
 
 ### Accidents by Time of Day
 
-![Screenshot 2024-07-03 210617](https://github.com/PendemLikhitha/ProdigyInfoTech_TASK5/assets/159911587/5f8ed9ba-9763-4dde-94e0-523b2044f63e)
+![Screenshot 2024-07-06 230950](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/c86b7189-213d-4d98-abcd-6443c825ec22)
+
 
 ```python
 # Selecting numerical columns for correlation analysis
@@ -93,8 +99,8 @@ plt.savefig('assets/correlation_matrix.png')  # Save the plot
 plt.show()
 ```
 ### Correlation Matrix of Numerical Variables
+![Screenshot 2024-07-06 231003](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/724f4a4d-53a7-48a0-9583-5cefe63cc092)
 
-![Screenshot 2024-07-03 210637](https://github.com/PendemLikhitha/ProdigyInfoTech_TASK5/assets/159911587/f5843827-c5ce-4bc2-83e2-b4ead31adcbe)
 
 ```python
 # Pie chart of accident severity
@@ -113,4 +119,5 @@ plt.show()
 ```
 ### Pie Chart of Accident Severity
 
-![Screenshot 2024-07-03 210644](https://github.com/PendemLikhitha/ProdigyInfoTech_TASK5/assets/159911587/90c91453-9111-4741-9bee-3c389f8d64c9)
+![Screenshot 2024-07-06 231009](https://github.com/PendemLikhitha/PRODIGY_DS_05/assets/159911587/aeb3ee47-3d11-4064-8dba-7d8dfefcb2e7)
+
